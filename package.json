@@ -1,0 +1,31 @@
+{
+  "name": "event-ticket-seller",
+  "version": "1.0.0",
+  "description": "Simple API implementing Porto (Software Architectural Pattern) using Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielNSilva/event-ticket-seller.git"
+  },
+  "author": "GabrielNSilva",
+  "keywords": [
+    "Event Ticket Seller",
+    "API",
+    "Framework",
+    "API framework",
+    "API Starter",
+    "Node",
+    "Node.JS",
+    "Typescript",
+    "Porto",
+    "Porto SAP"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielNSilva/event-ticket-seller/issues"
+  },
+  "homepage": "https://github.com/GabrielNSilva/event-ticket-seller#readme"
+}
