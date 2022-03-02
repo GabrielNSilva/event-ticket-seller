@@ -4,7 +4,9 @@
   "description": "Simple API implementing Porto (Software Architectural Pattern) using Node.JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:watch": "npm test -- --watch",
+    "test:cov": "npm test -- --coverage"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,21 @@
   "bugs": {
     "url": "https://github.com/GabrielNSilva/event-ticket-seller/issues"
   },
-  "homepage": "https://github.com/GabrielNSilva/event-ticket-seller#readme"
+  "homepage": "https://github.com/GabrielNSilva/event-ticket-seller#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {},
+  "_moduleAliases": {
+    "@": "dist"
+  }
 }
