@@ -1,6 +1,7 @@
 /* eslint-disable class-methods-use-this */
 import { Request, Response } from 'express';
 import ApiController from '@/Ship/Parents/Controllers/ApiController';
+import GetAllUsersAction from '@/Containers/User/Actions/GetAllUsersAction';
 
 /**
  * Class Controller.
@@ -13,6 +14,7 @@ export default class Controller extends ApiController {
   };
 
   getAllUsers = async (request: Request, response: Response) => {
-    response.status(201).json({ users: [] });
+    const users = GetAllUsersAction()
+    response.status(201).json({ users });
   };
 }
